@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1170px){
+	
+	.encabezado p{
+		font-size: 20px;
+	}
+	.caption-content {
+		width: 500px;
+	}}
+
+@media only screen and (max-width: 992px){
+	.carousel,
+	.item,
+	.active {
+   		height: 500px;
+   		min-height: initial;
+	}
+	
+	.carousel-inner {
+    	height: 500px;
+	}
+	
+	.fill {
+   		height: 500px;
+		background-size: cover;
+	}
+	
+	.encabezado h2{
+		text-align: center;
+	}
+	.encabezado p{
+		text-align: center;
+	}
+		
+	#formulario {
+		position: relative;
+		top:0px;
+		right: 0px;
+		padding: 20px 0;
+		left: auto;
+		height: auto;
+		min-height: initial;
+	}
+	
+	.caption-content {
+		position:relative;
+		bottom:auto;
+		right: auto;
+		left: auto;
+		text-align:center;
+		
+		padding:25px 25px!important;
+		width:100%;
+	}
+
+	.caption-content p{
+		font-size: 20px;
+		line-height: 26px;
+		color: #fff;
+	}
+
+}
+@media only screen and (max-width: 769px){
+	.carousel,
+	.item,
+	.active {
+   		height: 340px;
+   		min-height: initial;
+	}
+	
+	.carousel-inner {
+    	height: 340px;
+	}
+	
+	.fill {
+   		height: 340px;
+		background-size: contain;
+		background-position: center top;
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+	.caption-content p{
+		font-size: 17px;
+		line-height: 23px;
+	}
+
+
+}
+@media only screen and (max-width: 321px){
+
+	.carousel,.item,.active {
+   		height: 280px;
+   		min-height: initial;
+	}
+	
+	.carousel-inner {
+    	height: 280px;
+	}
+	
+	.fill {
+   		height: 280px;
+		background-size: contain;
+	}
+}
