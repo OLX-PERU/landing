@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+	<title>Finca Bonita</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="OLX">
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+	<script type="text/javascript">
+		var submitted = false;
+	</script>
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	
+	<div class="header-mobile visible-sm visible-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12" style="padding: 0;">
+                    <div class="encabezado">
+                        <figure><img src="images/logo.png" class="logo1"></figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="myCarousel" class="carousel slide">
+            <div class="item active left">
+                <div class="fill uno" style="background-image:url('images/slide_1.jpg');">
+                    <img src="images/bg.png" style="width: 100%;">
+                </div>
+            </div>
+           
+       
+    
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12" id="formulario">
+        <div class="row hidden-sm hidden-xs">
+            <div class="col-md-12">
+                <div class="encabezado">
+                    <figure><img src="images/logo.png" class="logo2"></figure>
+                </div>
+            </div>
+		</div>
+		<div class="gracias">
+			<h2>Muchas gracias</h2>
+			<p>El mensaje se envió correctamente</p>
+			<p class="volver"><a href="index.html">Volver</a></p>
+		</div>
+	</div>
+	<!-- /.container -->
+	<!-- jQuery -->
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script><script src="js/jquery.validate.min.js"></script>
+	<script src="js/localization/messages_es.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#ss-form").validate();
+
+			$('.carousel').carousel({
+				interval: 5000 //changes the speed
+			})
+		});
+	</script>
+
+
+</body></html>
