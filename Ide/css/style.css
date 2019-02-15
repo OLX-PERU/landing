@@ -286,3 +286,26 @@ img.imgmob {display: none;}
 	/*img.imgdes {display: none;}
 	img.imgmob {display: block;}*/
 }
+
+
+.radiobutton{
+	background-color:white;
+	padding: 20px;
+	border-radius: 5px;
+}
+.radiobutton label{display: block;margin-bottom: 20px;margin: 0;vertical-align: top;display: inline-block;width: 100%;}
+
+.radiobutton .radio{
+	display: inline-block;
+	margin-right: 9px;
+}
+
+.radiobutton .radio input{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: top;
+}
+.radiobutton .radio label{
+	display: inline;
+}
